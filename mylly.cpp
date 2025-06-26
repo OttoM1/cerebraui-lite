@@ -16,11 +16,31 @@ namespace fs = std::filesystem;
     <title>Generoitu Komponentti</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    body, html {
+        background-color: white;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        color: black;
+margin: 0;
+padding: 0;
+    }
+
+    button {
+margin-top: 40svh;
+    width: 8rem;
+height: 5rem;
+position: relative;
+    }
+</style>
 <body>
     <button class="komponentti1">Paina</button>
 </body>
-</html>
-)";
+</html>)"; )";
    
 }
     //Lisää komponentteja
